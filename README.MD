@@ -1,5 +1,3 @@
-
-
 # SAAS Based certficate manager
 
 ## Customer portal
@@ -12,11 +10,11 @@
 
 ## Features
 
-### Create certficate/ Import
+### 1. Create certficate/ Import
 
-### Maintain Expiry
+### 2. Maintain Expiry
 
-### **Renewal and Auto-Renewal** :
+### **3. Renewal and Auto-Renewal** :
 
 * **Manual Renewal** : Offer users the option to manually renew certificates as they approach expiration.
 * **Auto-Renewal** : Integrate with third-party APIs (e.g., Let's Encrypt or other Certificate Authorities) to support automatic certificate renewals. Open-source options may be leveraged to handle the auto-renewal functionality at scale.
@@ -24,13 +22,13 @@
     * If auto-renewal is enabled, the system will attempt renewal with the configured CA.
     * If auto-renewal fails, users receive a notification with options to retry manually
 
-### Notification
+### 4. Notification
 
-### Agent approach for installation and certaficate renewal
+### 5. Agent approach for installation and certaficate renewal
 
 Create an agent-based solution for customers who need certificates to be automatically installed on their servers. The agent can be deployed on servers to install and periodically renew certificates directly.
 
-### Payment processing
+### 6. Payment processing
 
 Integrate payment processing for a subscription model, allowing customers to pay for the platform and potentially for add-on features like premium support or additional certificate types.
 
