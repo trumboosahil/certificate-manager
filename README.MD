@@ -32,6 +32,15 @@ Create an agent-based solution for customers who need certificates to be automat
 
 Integrate payment processing for a subscription model, allowing customers to pay for the platform and potentially for add-on features like premium support or additional certificate types.
 
+### 7. SSO integration
+
+Support SSO integration based on standard protocall like OIDC
+
+### **8. Role-Based Access Control (RBAC)**
+
+* Different access levels (admin, viewer, operator) to restrict actions based on roles.
+* Multi-account and multi-organization support to cater to large enterprise teams.
+
 ## Admin Dashboard
 
 The admin dashboard is a backend management panel for administrators and support teams to manage and support customer accounts.
