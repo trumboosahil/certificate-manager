@@ -2,7 +2,7 @@
 
 # SAAS Based certficate manager
 
-Customer portal
+## Customer portal
 
 * BackOffice Dashboard: Provides a single point for complete visibility and control over all the certificates being issued\used by various organizations. Having adequate filters like company wise, cert type, environments, etc to have the proper view.
 * GUI and Api support for Certificate creation: Robust GUI for the customers to create and manage certificate, Api’s to do the same actions which can be automated for managing certs lifecycle.
@@ -10,7 +10,7 @@ Customer portal
 * Analytics and metrics: To provide customers with a better view of how their certificates are being used, etc.
 * Auto-installation of certficates at server
 
-## Customer portal
+## Features
 
 ### Create certficate/ Import
 
@@ -20,6 +20,9 @@ Customer portal
 
 * **Manual Renewal** : Offer users the option to manually renew certificates as they approach expiration.
 * **Auto-Renewal** : Integrate with third-party APIs (e.g., Let's Encrypt or other Certificate Authorities) to support automatic certificate renewals. Open-source options may be leveraged to handle the auto-renewal functionality at scale.
+  * Renewal Workflow : Initiated when a certificate is close to expiry.
+    * If auto-renewal is enabled, the system will attempt renewal with the configured CA.
+    * If auto-renewal fails, users receive a notification with options to retry manually
 
 ### Notification
 
